@@ -24,13 +24,13 @@ export default function PbAIGenerator() {
             id: "hero",
             title: "Hero",
             image:
-                "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=80",
+                "https://placehold.co/800x600",
             content: "",
             component: (content, typing) => (
                 <div className="text-center space-y-6">
                     <img
                         src={
-                            "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=80"
+                            "https://placehold.co/800x600"
                         }
                         alt="hero"
                         className="w-full h-72 object-cover rounded-2xl shadow-lg"
@@ -46,9 +46,9 @@ export default function PbAIGenerator() {
             component: (content, typing) => (
                 <div className="grid md:grid-cols-3 gap-6">
                     {[
-                        "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80",
-                        "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80",
-                        "https://images.unsplash.com/photo-1516251193007-45ef944ab0c6?auto=format&fit=crop&w=800&q=80",
+                        "https://placehold.co/800x600",
+                        "https://placehold.co/800x600",
+                        "https://placehold.co/800x600",
                     ].map((img, idx) => (
                         <div
                             key={idx}
@@ -68,8 +68,8 @@ export default function PbAIGenerator() {
             component: (content, typing) => (
                 <div className="space-y-6">
                     {[
-                        "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
-                        "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=800&q=80",
+                        "https://placehold.co/800x600",
+                        "https://placehold.co/800x600",
                     ].map((img, idx) => (
                         <div key={idx} className="bg-gray-800 p-6 rounded-2xl border border-pink-700/40 shadow flex gap-4">
                             <img src={img} alt={`case-${idx}`} className="w-40 h-32 object-cover rounded-xl" />
@@ -106,8 +106,8 @@ export default function PbAIGenerator() {
             component: (content, typing) => (
                 <div className="grid md:grid-cols-2 gap-6">
                     {[
-                        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
-                        "https://images.unsplash.com/photo-1504712598893-24159a89200e?auto=format&fit=crop&w=800&q=80",
+                        "https://placehold.co/800x600",
+                        "https://placehold.co/800x600",
                     ].map((img, idx) => (
                         <div key={idx} className="bg-gray-800 p-6 rounded-2xl border border-pink-700/40 shadow">
                             <img src={img} alt={`article-${idx}`} className="w-full h-40 object-cover rounded-xl mb-4" />
